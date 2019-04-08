@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02C4D0542259774000CCF1CC /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4D0532259774000CCF1CC /* Concentration.swift */; };
+		02C4D056225977F700CCF1CC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4D055225977F700CCF1CC /* Card.swift */; };
 		02F0094A22595C5E00E79224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0094922595C5E00E79224 /* AppDelegate.swift */; };
 		02F0094C22595C5E00E79224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0094B22595C5E00E79224 /* ViewController.swift */; };
 		02F0094F22595C5E00E79224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F0094D22595C5E00E79224 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02C4D0532259774000CCF1CC /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		02C4D055225977F700CCF1CC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		02F0094622595C5E00E79224 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F0094922595C5E00E79224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F0094B22595C5E00E79224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				02F0094922595C5E00E79224 /* AppDelegate.swift */,
 				02F0094B22595C5E00E79224 /* ViewController.swift */,
 				02F0094D22595C5E00E79224 /* Main.storyboard */,
+				02C4D0532259774000CCF1CC /* Concentration.swift */,
+				02C4D055225977F700CCF1CC /* Card.swift */,
 				02F0095022595C5E00E79224 /* Assets.xcassets */,
 				02F0095222595C5F00E79224 /* LaunchScreen.storyboard */,
 				02F0095522595C5F00E79224 /* Info.plist */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Esraa;
 				TargetAttributes = {
 					02F0094522595C5E00E79224 = {
@@ -138,6 +144,8 @@
 			files = (
 				02F0094C22595C5E00E79224 /* ViewController.swift in Sources */,
 				02F0094A22595C5E00E79224 /* AppDelegate.swift in Sources */,
+				02C4D0542259774000CCF1CC /* Concentration.swift in Sources */,
+				02C4D056225977F700CCF1CC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +185,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +244,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
