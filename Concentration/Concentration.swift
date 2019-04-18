@@ -37,6 +37,7 @@ class Concentration {
     
     func flipAllCards(index: Int){
         cards[index].isFaceUp = false
+        cards[index].isMatched = false
     }
     
     init(numberOfPairsOfCards: Int) {

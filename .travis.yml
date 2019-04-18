@@ -1,0 +1,11 @@
+language: objective-c
+
+osx_image: xcode10.1
+
+notifications:
+  email: esraa.mohamed87@gmail.com
+  
+install:
+    - bundle install
+
+script: bundle exec fastlane ios build

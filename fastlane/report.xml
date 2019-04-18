@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.005385">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.001031">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: xcbuild" time="1.307229">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: copy_artifacts" time="0.123318">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var newGameButton: UIButton!
     
-    var emojiChoices: Array<String> = ["👻", "🎃" , "🍭", "😈", "😱", "🙀", "🍎", "🍬"]
+    var emojiChoices: Array<String> = ["👻", "🎃" , "🍭", "😈", "😱", "🙀", "🍎", "🍬", "🦇"]
     
     @IBAction func touchCard(_ sender: UIButton) {
         flipCount += 1
@@ -62,12 +62,10 @@ class ViewController: UIViewController {
     }
     
     func flipAllCards(){
-        flipCountLabel.text = "0"
+        flipCount = 0
         for index in cardButtons.indices {
-            print("index \(index)")
-            let button = cardButtons[index]
-            button.setTitle("", for: UIControlState.normal)
-            button.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
+            game.flipAllCards(index: index)
+            updateViewFromModel()
         }
     }
 }
